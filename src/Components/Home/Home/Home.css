@@ -1,0 +1,12 @@
+.bg-Sajek{
+     background-image: url("../../../assets//images//Sajek.png");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     position: 100% 100%;
+     background-size:cover;
+     
+     
+}
+.bg-Sajek h1,p{
+    color:darkblue;
+}
