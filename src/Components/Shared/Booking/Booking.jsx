@@ -50,7 +50,7 @@ const Booking = () => {
     setStartDate(new Date());
     setEndDate(new Date());
 
-    fetch("http://localhost:4000/travel/bd", {
+    fetch("https://travel-bd-server-two.vercel.app/travel/bd", {
       method: "POST",
       body: JSON.stringify(newBooking),
       headers: {

@@ -41,7 +41,7 @@ export const routers=createBrowserRouter([
                 path:"/stayroom/:id",
                 element:<Protected><StayRoom></StayRoom></Protected>,
                 loader:({params})=>{
-                return fetch(`http://localhost:4000/travel/stayroom/${params.id}`)
+                return fetch(`https://travel-bd-server-two.vercel.app/travel/stayroom/${params.id}`)
                 
                 }
             },
