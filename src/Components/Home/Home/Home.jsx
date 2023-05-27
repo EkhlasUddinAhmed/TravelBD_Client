@@ -5,7 +5,9 @@ import sremongol from "../../../assets/images/Sreemongol.png";
 import shundorbon from "../../../assets/images//sundorbon.png";
 import "./Home.css";
 import { useNavigate } from "react-router-dom";
+import UseTitle from "../../../Hooks/UseTitle";
 const Home = () => {
+  UseTitle("Home"); 
   const navigate = useNavigate();
 
   const areaLocation = ["Sreemangal Upazila", "Sajek Valley", "Sundarbans"];

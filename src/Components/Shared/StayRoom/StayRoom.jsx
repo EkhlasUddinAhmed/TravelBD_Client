@@ -4,8 +4,10 @@ import RoomCard from "../../RoomCard/RoomCard";
 import "./StayRoom.css";
 import useAuthentication from "../../../Hooks/useAuthentication";
 import { toast } from "react-toastify";
+import UseTitle from "../../../Hooks/UseTitle";
 
 const StayRoom = () => {
+  UseTitle("StayRoom");
   const data = useLoaderData();
   const { activeUser } = useAuthentication();
  

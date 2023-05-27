@@ -3,10 +3,12 @@ import "./Login.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import useAuthentication from "../../Hooks/useAuthentication";
 import { toast } from "react-toastify";
+import UseTitle from "../../Hooks/UseTitle";
 
 
 
 const Login = () => {
+  UseTitle("Login"); 
   const {activeUser,setActiveUser,googleLogInHandler,userError,setUserError,customLogInHandler,sendPasswordResetEmailHandler}=useAuthentication();
     
    

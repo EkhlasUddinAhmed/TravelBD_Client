@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import UseTitle from '../../Hooks/UseTitle';
 
 const Terms = () => {
+
+      UseTitle("Terms");
     return (
         <div className='bg-white'>
             <h1 className="text-center text-danger text-decoration-underline">Travel Bangladesh Terms And Conditions Are Given Below</h1>

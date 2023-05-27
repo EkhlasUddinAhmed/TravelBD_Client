@@ -6,8 +6,10 @@ import "./Booking.css";
 import {toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import areaDescription from "../../../../src/area.json";
+import UseTitle from "../../../Hooks/UseTitle";
 
 const Booking = () => {
+  UseTitle("Booking");
   const { name } = useParams();
   const navigate=useNavigate();
   const [fromOrigin, setFromOrigin] = useState("");
